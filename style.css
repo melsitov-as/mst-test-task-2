@@ -4,19 +4,12 @@
 }
 
 body {
-  min-width: 320px;
   background: #000000;
 }
 
 .container {
-  min-width: 320px;
   height: 100vh;
   width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .text {
@@ -42,11 +35,9 @@ video {
 .bg-elem-1 {
   position: relative;
   overflow: hidden;
-  margin: 0 15px;
   display: inline-block;
   width: 30%;
   height: 5vw;
-  background: black;
 }
 
 .bg-elem-1 video {
@@ -58,11 +49,9 @@ video {
 .bg-elem-2 {
   position: relative;
   overflow: hidden;
-  margin: 0 15px;
   display: inline-block;
   width: 20%;
   height: 5vw;
-  background: black;
 }
 
 .bg-elem-2 video {
@@ -74,11 +63,9 @@ video {
 .bg-elem-3 {
   position: relative;
   overflow: hidden;
-  margin: 0 15px;
   display: inline-block;
   width: 10%;
   height: 5vw;
-  background: black;
 }
 
 .bg-elem-3 video {
@@ -90,15 +77,9 @@ video {
 .bg-elem-4 {
   position: relative;
   overflow: hidden;
-  margin: 0 10px;
   display: inline-block;
   width: 72%;
   height: 5vw;
-  background: black;
-
-  @media (max-width: 740px) {
-    width: 70%;
-  }
 }
 
 .bg-elem-4 video {
